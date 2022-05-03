@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  def contact_method
+  def one_contact_method
     contact = Contact.first
     render json: contact.as_json
   end
